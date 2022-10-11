@@ -7,7 +7,7 @@ const TodoList = ({ todos }) => {
   const elements = todos.map((item)=> {
     return(
       <li>
-        <TodoListItem { ...item }/>
+        <TodoListItem {  ...item }/>
       </li>);
   });
   return(
